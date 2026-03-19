@@ -1,0 +1,11 @@
+{
+  "name": "online-poll-creator-backend",
+  "version": "0.0.1",
+  "description": "Backend for my project",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {},
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
