@@ -4,8 +4,15 @@
   "description": "Backend for my project",
   "type": "commonjs",
   "main": "server.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "express": "^5.2.1"
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.3.1"
   }
 }
