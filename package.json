@@ -6,7 +6,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node --test test.js"
+    "test": "node --test test.js",
+    "test:pr": "node --test test-pr.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
